@@ -7,3 +7,6 @@ SHOW TABLES;
 
 DESC pastries;
 
+DROP TABLE pastries;
+
+SHOW TABLES;
