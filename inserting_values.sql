@@ -13,6 +13,22 @@ CREATE TABLE people (
 );
 
 
---ADD NOT NULL CONSTRAINT TO AN EXISTING TABLE COLUMN
+--ADD NOT NULL CONSTRAINT TO AN EXISTING TABLE COLUMN, or change column data type
 ALTER TABLE people
-MODIFY last_name BIT NOT NULL;
+MODIFY last_name NOT NULL;
+
+ALTER TABLE people
+MODIFY first_name VARCHAR(20) NOT NULL;
+
+ALTER TABLE people
+MODIFY last_name VARCHAR(20) NOT NULL;
+
+ALTER TABLE people
+MODIFY age INTEGER NOT NULL;
+
+
+INSERT INTO people (first_name,last_name, age)
+VALUES ('Tina','Belcher',13);
+
+INSERT INTO people (first_name, last_name, age)
+VALUES ('Bob','Belcher',20);
