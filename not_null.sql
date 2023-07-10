@@ -30,5 +30,3 @@ MODIFY age INTEGER;
 
 DESCRIBE folks;
 
---always use single quotes for strings
--- use back slashes to escape quotes
