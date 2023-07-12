@@ -60,3 +60,18 @@ SELECT article,color FROM shirts;
 --select all medium shirts
 SELECT article,color,shirt_size,last_worn FROM shirts
 WHERE shirt_size='M';
+
+
+--increase the size to L for all polo shirts
+SELECT * FROM shirts
+WHERE article='polo shirt';
+
+UPDATE shirts SET shirt_size = 'L'
+WHERE article = 'polo shirt';
+
+--update last worn if last worn is 15
+SELECT * FROM shirts
+WHERE last_worn=15;
+
+UPDATE shirts SET last_worn = 0
+WHERE last_worn = 15;
