@@ -85,3 +85,15 @@ UPDATE shirts SET shirt_size = 'XS', color='off white'
 WHERE color='white';
 
 SELECT * FROM shirts;
+
+--delete all shirts that were last worn 200 days ago
+SELECT * FROM shirts
+WHERE last_worn=200;
+
+DELETE FROM shirts WHERE last_worn =200;
+
+--delete all the tank tops 
+SELECT * FROM shirts
+WHERE article='tank top';
+
+DELETE FROM shirts WHERE article ='tank top';
