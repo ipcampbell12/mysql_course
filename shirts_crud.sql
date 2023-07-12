@@ -46,3 +46,17 @@ VALUES  ('t-shirt', 'white', 'S', 10),
         ('tank top', 'blue', 'M', 15);
 
 SELECT * FROM shirts;
+
+--add a puprle polo shirt and verify it was added
+INSERT INTO shirts (article,color,shirt_size,last_worn)
+VALUES ('polo shirt', 'purple', 'M', 50);
+
+SELECT * FROM shirts;
+
+
+--select article and color from shirts
+SELECT article,color FROM shirts;
+
+--select all medium shirts
+SELECT article,color,shirt_size,last_worn FROM shirts
+WHERE shirt_size='M';
