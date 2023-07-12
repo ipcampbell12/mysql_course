@@ -10,3 +10,10 @@
 --age based lay off
 UPDATE employees SET current_status='fired'
 WHERE age >40;
+
+--can also update multiple columns at once
+
+--Misty got older
+
+UPDATE cats SET age=14
+WHERE name='Misty';
