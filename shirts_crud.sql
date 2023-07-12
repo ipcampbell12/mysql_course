@@ -97,3 +97,8 @@ SELECT * FROM shirts
 WHERE article='tank top';
 
 DELETE FROM shirts WHERE article ='tank top';
+
+--delete all the shirts
+DELETE FROM shirts;
+
+SELECT * FROM shirts;
