@@ -17,3 +17,7 @@ WHERE age >40;
 
 UPDATE cats SET age=14
 WHERE name='Misty';
+
+
+--good idea to select what you are trying to update before you perform the update
+-- make sure you are correclty targeting your update
