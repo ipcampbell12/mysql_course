@@ -102,3 +102,8 @@ DELETE FROM shirts WHERE article ='tank top';
 DELETE FROM shirts;
 
 SELECT * FROM shirts;
+
+--drop the shirts table
+DROP TABLE shirts;
+
+SHOW TABLES;
