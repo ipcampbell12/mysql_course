@@ -24,6 +24,7 @@ SELECT name, breed FROM cats;
 
 
 --actual breed name is 'Tabby' it's case inesensitive
+--write the sql that selects the tabby cats
 SELECT name, age FROM cats
 WHERE breed = 'tabby';
 
