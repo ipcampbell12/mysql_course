@@ -18,3 +18,14 @@ CREATE TABLE shirts (
 );
 
 DESCRIBE shirts;
+
+
+--make some adjustments to the table constraints
+ALTER TABLE shirts
+MODIFY article VARCHAR(50) NOT NULL;
+
+ALTER TABLE shirts
+MODIFY color VARCHAR(50) NOT NULL;
+
+ALTER TABLE shirts
+MODIFY shirt_size CHAR(10) NOT NULL;
