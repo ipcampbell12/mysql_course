@@ -1,7 +1,6 @@
 --access mysql from terminal : mysql -u root -p
 
-CREATE TABLE books 
-	(
+CREATE TABLE books (
 		book_id INT NOT NULL AUTO_INCREMENT,
 		title VARCHAR(100),
 		author_fname VARCHAR(100),
@@ -30,3 +29,6 @@ VALUES
 ('Cannery Row', 'John', 'Steinbeck', 1945, 95, 181),
 ('Oblivion: Stories', 'David', 'Foster Wallace', 2004, 172, 329),
 ('Consider the Lobster', 'David', 'Foster Wallace', 2005, 92, 343);
+
+
+--run sql file from terminal: source mysql_file.sql

@@ -22,3 +22,4 @@ SHOW TABLES;
 SHOW COLUMNS FROM <table_name>;
 
 DESC <table_name> (or DESCRIBE)
+
