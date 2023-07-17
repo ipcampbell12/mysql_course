@@ -1,8 +1,5 @@
-SELECT
-    UPPER('hello');
-
-SELECT
-    LOWER('HELLO');
+SELECT UPPER('hello');
+SELECT LOWER('HELLO');
 
 SELECT
     UPPER(title)

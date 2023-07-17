@@ -8,6 +8,7 @@ FROM
 
 -- turn every person's name into a palindrome
 SELECT
-    CONCAT(author_fname, REVERSE(author_fname))
+    CONCAT(author_fname, REVERSE(author_fname)) 
+    AS palindrome
 FROM
     books;

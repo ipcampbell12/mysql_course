@@ -11,6 +11,10 @@ SELECT
     REPLACE('cheese bread coffee milk', ' ', ' and ');
 
 SELECT
-    REPLACE(title, ' ', '-')
+    REPLACE(title, ' ', '-') AS dash_title
 FROM
     books;
+
+
+
+    

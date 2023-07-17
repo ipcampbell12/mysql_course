@@ -11,5 +11,6 @@ SELECT SUBSTRING( 'HELLO WORLD',1,6);
 
 SELECT SUBSTRING(title,1,15) FROM books;
 
-SELECT CONCAT(SUBSTRING(author_fname, 1,1),'. ', author_lname) AS author_name
+SELECT 
+CONCAT(SUBSTRING(author_fname, 1,1),'. ', author_lname) AS author_name
 FROM books;
