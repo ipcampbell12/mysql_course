@@ -17,9 +17,9 @@ SELECT
 FROM
     books;
 
--- count distinct last names
+-- count distinct last names in the dataset
 SELECT
-    COUNT(DISTINCT author_lname)
+    COUNT(DISTINCT author_lname) AS unique_authors
 FROM
     books;
 

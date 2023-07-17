@@ -13,7 +13,6 @@ SELECT ROUND(AVG(stock_quantity))FROM books;
 
 -- calculate the average stock quantity for books released in the same year
 -- also include how many books 
-
 SELECT released_year, ROUND(AVG(stock_quantity)) AS books_in_stock, COUNT(*) AS books
 FROM books
 GROUP BY released_year
