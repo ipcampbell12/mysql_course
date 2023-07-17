@@ -1,0 +1,6 @@
+-- DATE 'YYYY-MM-DD' is standard format (date but no time)
+-- good for birthdate, for calendar app, events
+-- TIME (time but no date), can be time of day or interval of time
+-- 'HH:MM:SS' is standard format
+-- DATETIME standard format = 'YYYY-MM-DD HH:MM:SS' - date and time separated by a space
+-- when something was changed, specific event, when a user signed up for an account
