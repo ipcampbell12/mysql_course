@@ -14,6 +14,12 @@ SELECT birthdate, DAYOFYEAR(birthdate) FROM people;
 
 -- return name of the month and name of the day of the week
 
-SELECT name, birthdate, MONTHNAME(birthdate), DAYNAME(birthdate) FROM people;
+SELECT name, 
+        birthdate, 
+        DAY(birthdate) AS day_of_month, 
+        MONTHNAME(birthdate) AS month_name, 
+        DAYNAME(birthdate) AS day_name,
+        MONTH(birthdate) AS month_num
+FROM people;
 
 -- but these function wont work with just time values, would have to be datetime

@@ -12,6 +12,8 @@ SELECT CURDATE();
 -- current datetime
 SELECT NOW();
 
+SELECT CURTIME(), CURDATE(), NOW();
+
 -- someone was just born
 INSERT INTO people (name, birthdate, birthtime, birthdt)
 VALUES ('Hazel',CURDATE(),CURTIME(),NOW());
