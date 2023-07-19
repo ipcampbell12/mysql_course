@@ -13,3 +13,5 @@ INSERT INTO contacts (name, phone)
 VALUES ('Timmy Tim Tim','878-121-3455');
 
 SELECT * FROM contacts;
+
+-- not null and unique are reundant for primary key
