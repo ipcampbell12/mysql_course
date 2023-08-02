@@ -59,3 +59,5 @@ FROM students s
 LEFT JOIN papers p ON s.id = p.student_id 
 GROUP BY first_name
 ORDER BY average DESC;
+
+-- LEFT JOIN -- good for info about LACK of overlap
